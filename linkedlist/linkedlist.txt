@@ -1,0 +1,50 @@
+What are linked list? 
+
+❌ it is a list, that is linked 😂
+
+✔ A list contain set of nodes, the nodes have two elements, the value/data and a pointer, which points to the next node 
+
+Visuall: 
+
+12
+1234 --> 18
+         5587 --> 5 
+                  9878 --> 43
+                           6654 --> null
+
+
+
+explanation: 
+the value 12 is the data , and the value down to it is the address of 12, which points to the next node and so on!
+
+
+* The first node called head node and last node is called tail node. 
+
+* A tail node should point to null, coz its the end of the list. 
+
+
+Why Linked list ? vs arrays?
+* linked list has a loose structure
+
+* flexible than using arrays
+
+* they can be easily resized and modified without needing to move large amounts of data around, unlike in array 
+  upon insertin or removing elements the index needs to be shifted!
+
+* using linked list anf arrays in an applications depend on the requirements, like when the size of the data is already known , they will added/removed or updated easily, otherwise use linked list data structure where the size of the data/collection is not known! 
+
+*linked list are fast compared to arrays , when it comes to insert or delete at elements at middle/particular index!
+
+
+reference: arrays vs linked (when to use which)
+https://hackernoon.com/arrays-vs-linked-lists-which-is-better
+
+
+time complexity of linked list: 👇
+prepend: 0(1)
+append : 0(1)
+lookup/search: 0(n)
+insert: 0(n)
+delete: 0(n)
+
+
