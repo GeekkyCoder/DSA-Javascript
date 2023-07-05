@@ -1,3 +1,6 @@
+
+// LIFO --> LAST IN FIRST OUT 
+
 //Discord
 //Udemy
 //google
