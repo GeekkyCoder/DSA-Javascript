@@ -1,0 +1,67 @@
+Tree Data Structure ?
+
+A tree data structure is a hierarchical structure that is used to represent and organize data in a way that is easy to navigate and search. It is a collection of nodes that are connected by edges and has a hierarchical relationship between the nodes
+
+
+terminologies used in tree data structure 👇
+
+* The topmost node of the tree is called the root.
+* nodes below the parent or topmost/root are called the child nodes.
+* Each node can have multiple child nodes, and these child nodes can also have their own child nodes.
+* a node which does not have any child node is called leaf node/external node.
+* nodes having same parent are called sibling nodes.
+
+
+* representation of a tree data structure 👇
+
+          1
+        2   3 
+       4 5  6 7 
+
+
+ * -> it is the topmost node, also known as root node.
+ * -> 2 and 3 are the child nodes of 1 .
+ * -> 4,5 and 6,7 are the child nodes of 2 and 3. 
+
+ 
+Types of tree data structure: 👇
+
+There are many types of binary trees btw! 
+
+1) Binary Tree 
+   -Perfect Binary Tree 
+   -Full Binary tree / Complete Binary Tree
+
+2) Ternary Tree
+
+and so on....
+
+
+
+Perfect Binary tree/balanced tree: 
+representation of perfect binary tree 👇
+           a 
+        b      c
+      c  d    e  f 
+
+* In a perfect binary tree, each node can have zero or maximum of two children linked to it and each node have single  parent!
+
+* the sum of last level nodes are equal to the sum of its upper level nodes + 1, which means that the half of our nodes are at the last level, and this brings a really interesting point, by organinzing our data this way, we have half of the data at bottom level! if somehow we can avoid looking at every node even if the node we are looking for is at the very bottom, perhaps we have some effieciencies! 
+
+* notice that, each node here has one node, and each node has single parent, these are traits of perfect   binary tree.
+
+
+
+Full Binary tree / Complete Binary Tree:
+representation of full binary tree 
+       a
+     b   c   
+   e  f 
+
+
+Ternary Tree:
+representation of ternary tree 👇
+      a 
+   b  c  d 
+
+ A Ternary Tree is a tree data structure in which each node has at most three child nodes, usually distinguished as “left”, “mid” and “right”.

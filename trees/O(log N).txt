@@ -1,0 +1,27 @@
+Reference 👇
+https://hackernoon.com/a-beginners-guide-to-the-big-o-notation-yb7332wf
+
+* Usually searhing algorithms have a time complexity of 0(log N)! 
+* this time complexity is great for larger inputs but in sorted fashion.
+
+algorithms that have a time complexity of 0(log N): 
+Binary Search 
+Binary Search Tree 
+
+
+log ? 
+* As our input size grows, the algorithm run time/ time complexity logrithimcally.
+* in each iteration we divide the input by half, and make decisions whether to go left or right!.
+* a google example is shown for 0(log N) in the reference link (A phone Book) 🔝. 
+
+
+suppose we have 1000 students and we are looking for 34th element.
+
+* would i use linear search 0(log N) to go through each student and check whether this is the student we are looking for! it would be 1000 comparison if we do it this way, this our time complexity will be 0(log N).
+
+
+
+BST -Binary Seacrh Tree time complexities:
+lookup/search - 0(log N)
+insert - 0(Log N)
+delete - 0(log N)
