@@ -1,0 +1,60 @@
+balanced BST and unbalanced BST 
+
+
+Balanced BST :
+* height of the left and right subtree of any node differ by not more than 1.
+* difference between the left and the right subtree for any node is not more than one 
+* height/level should be balanced from both sides left and right.
+* the left subtree is balanced
+* the right subtree is balanced
+
+e.g: 
+      
+       1 
+    2     3
+  4  5   6  7    
+
+* here the tree height is balanced!  
+
+
+ time complexities of balanced BST: 
+ lookup/search: 0(log N)
+ insert: 0(log N)
+ remove: 0(log N)
+
+
+Unbalanced BST:
+lets imagine a situation where each new node is getting inserted to the left, to the left , to the left or to the right,to the right. to the right, thus the tree becomes unbalanced, there are certian types of tree data structure that the self balanced BST's , they balance the tree themeselves! 
+
+self balanced BST's:
+1- AVL BST
+2- Red/Black BST
+
+
+few examples of unbalanced BST 👇
+
+e.g: 1
+
+       1 
+    2    3
+  4  5     6
+             15
+                50 
+                 89
+
+
+e.g: 2 
+              1 
+          2       3
+       4    5   6   7
+     3
+  2
+1 
+
+
+ * here the tree height is not balanced anymore!
+
+ time complexities of unbalanced BST: 
+ lookup/search: 0(n)
+ insert: 0(n)
+ remove: 0(n)

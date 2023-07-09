@@ -52,7 +52,7 @@ representation of perfect binary tree 👇
 
 
 
-Full Binary tree / Complete Binary Tree:
+Full Binary tree:
 representation of full binary tree 
        a
      b   c   

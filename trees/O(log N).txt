@@ -15,9 +15,33 @@ log ?
 * a google example is shown for 0(log N) in the reference link (A phone Book) 🔝. 
 
 
+
+example using binary search and linear search algorithm 👇
+
 suppose we have 1000 students and we are looking for 34th element.
 
-* would i use linear search 0(log N) to go through each student and check whether this is the student we are looking for! it would be 1000 comparison if we do it this way, this our time complexity will be 0(log N).
+option 1: 👇
+* would i use linear search 0(n) to go through each student and check whether this is the student we are looking for! it would be 1000 comparison if we do it this way, this our time complexity will be 0(n).
+
+
+option 2 : 👇
+* for 1000 students, if iam looking for 34th student, wha i will do , instead of going through all students and comparing is this the student iam looking for, ❌
+
+* i will use divide and conquer technique, where the large input is divided into two halves! 
+  
+   for 1000 stundents , half is 500
+
+   now iam looking for 34th students, i know 34th is going to come before 500 , so i will again divide the input by half, 500/2 = 250 , and again i know that the 34th student is going to come before 250 , so again i half the input 250/2 = 125 and so on untill the students is not found!
+
+ 
+   this way, i dont have to go through each student and make 1000 comparisions, now the run time is growing lograthimally (log), this technique is great for large inputs! 
+
+   how many comparisions are possible for 1000 students using 0(log N) time complexity: 
+   log2(1000) =  10 
+
+   only 10 comparisions (0 log N)
+   1000 comparisions : 0(n)
+
 
 
 
