@@ -19,8 +19,8 @@ the value 12 is the data , and the value down to it is the address of 12, which 
 
 
 * The first node called head node and last node is called tail node. 
-
-* A tail node should point to null, coz its the end of the list. 
+ljjkj1l,
+yl* A tail node should point to null, coz its the end of the list. 
 
 
 Why Linked list ? vs arrays?
@@ -34,6 +34,11 @@ Why Linked list ? vs arrays?
 * using linked list anf arrays in an applications depend on the requirements, like when the size of the data is already known , they will added/removed or updated easily, otherwise use linked list data structure where the size of the data/collection is not known! 
 
 *linked list are fast compared to arrays , when it comes to insert or delete at elements at middle/particular index!
+
+
+* insert and deleting at a particular index is alot better in linkedlist compared to arrays, because in array if we  want to insert or delete a item at particular index we have to shift index, while in a linkedlist we just update few pointers and thats it, instead of shifting pointers or anything like that, this makes linkedlist better than arrays when it comes to insert or remove items at a particular index, note that the insert oor delete at end is same in both arrays and linkedlist 0(1).
+
+* linkedlist are not great for traversal operations, becuase they are stored in memory as scattered addresses compared to arrays where elements are stored contigious and close to eachoter, our cpu is great for finding addresses which are near to eachother, thus arrays are great for perfroming traversal operaion
 
 
 reference: arrays vs linked (when to use which)
