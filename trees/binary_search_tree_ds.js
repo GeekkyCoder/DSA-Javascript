@@ -172,8 +172,8 @@ class Node {
   tree.insert(15)
   tree.insert(170)
 
-console.log(tree.lookup(6))
-// console.log(JSON.stringify(traverse(tree.root)))
+// console.log(tree.lookup(6))
+console.log(JSON.stringify(traverse(tree.root)))
   
 
   function traverse(node) {
