@@ -1,3 +1,7 @@
+/*
+it is never going to be used, this algorithm is just for educational purposes!
+*/
+
 function bubbleSort(array) {
   // implementation
   for (let i = 0; i < array.length; i++) {

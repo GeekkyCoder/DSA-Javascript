@@ -1,10 +1,17 @@
-/*working of merge sort: 
+/*working of merge sort and when to use it: 
 
-Merge sort works by dividing the array into sub-arrays, untill each array has one Element, then each sub-array is concatinated(merged) in a sorted order
+* Merge sort works by dividing the array into sub-arrays, untill each array has one Element, then each     sub-array  is concatinated(merged) in a sorted order
 
+
+* this is a best algorithm , it uses divided and conquer technique and very fast comapred to other alogorithms like bubble-sort,selection-sort and instertion sort etc with the time complexity of 0(nlogn)!!!
+
+* User merge sort, when a stable sort is needed, a stable sort is one that's gurranteed not to reorder elements with identical keys.
+
+* disadvantege of merge sort is it has 0(n) space complexity.
+
+* when you care more about the space complexity, then use quick sort rather than merge sort, quick sort has
+in memory space or space complexity is 0(logn), whehereas 0(n) for merge sort!
 */
-
-
 
 function mergeSort(array) {
   // base case: array is now sorted sinnce its just 1 element
@@ -46,7 +53,6 @@ function merge(leftA, rightA) {
 }
 
 console.log(mergeSort([6, 1, 23, 4, 2, 3])); // [1,2,3,4,6,23]
-
 
 /*
 Time complexity: 0(nlogn)

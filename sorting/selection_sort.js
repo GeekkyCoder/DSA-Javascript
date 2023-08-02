@@ -1,3 +1,8 @@
+/*
+it is never going to be used, this algorithm is just for educational purposes!
+*/
+
+
 function selectionSort(array) {
   for (let i = 0; i < array.length; i++) {
     let smallest = i;

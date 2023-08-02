@@ -1,5 +1,5 @@
-// Note:
-// best suited with almost sorted data 
+// When to you insertion sort: 
+// best suited with almost sorted data znd have few items!!!
 
 function insertionSort(array) {
   let len = array.length,
