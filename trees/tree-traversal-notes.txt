@@ -1,0 +1,53 @@
+About Tree Traversal: 
+
+Array Traversal:
+-Traversing through an array is simple, you access the value/element using the index and increment the index untill the index reaches the size limit.
+
+ 0 1 2 3 4 5 6
+[1,2,3,4,5,6,7]
+
+Tree Traversal: 
+
+* Traversing a tree means visiting every node in the tree. You might, for instance, want to add all the values in the tree or find the largest one. For all these operations, you will need to visit each node of the tree.
+
+* Linear data structures like arrays, stacks, queues, and linked list have only one way to read the data. But a hierarchical data structure like a tree can be traversed in different ways.
+
+* With trees, the left and right pointers have to be followed in order to go through every element in the tree, there are various ways to do this,   the most popular traversal techniques are:
+ (Pre-Order-Traversal)
+ (Post-Order-Traversal)
+ (In-Order-Traversal)
+
+tree reprsentation:
+        1
+      2   3
+   4  5  6  7  
+
+
+1) Pre-Order Traversal Working:
+   pre-order traversal works in the following order: root(currentNode), left right! 
+
+you can see that the 1 is the root node, so its visited first, then it goes to left, at this point, the left of the parents (2) is now considered the new root, this new root is printed, then it goes left again to 4, So 4 is set to the new root but it is a leaf node/ does not contain a child, then 5 is visited because that is right of the previous parent (2). this process continues in this fashion...
+
+pre-order traversal: [1,2,4,5,3,6,7]
+
+usage: 
+best suited for recreating the tree!
+
+
+2) Post Order Traversal Working: 
+   post-order traversal works in the following order: root(currentNode), left, right!
+
+ post order traversal technique follows the Left Right Root policy. Here, Left Right Root means the left subtree of the root node is traversed first, then the right subtree, and finally, the root node is traversed. Here, the Postorder name itself suggests that the tree's root node would be traversed at last.
+
+ post-order traversal: [4,5,2,6,7,3,1]
+
+
+3) In Order Traversal Working:
+   in-order traversal works in the following order: root(currentNode), left, right!
+
+   In order traversal technique follows the Left Right Root policy, the left tree is traversed from bottom and right tree is traversed from bottom and in the end root is printed!
+
+
+<> Preorder		Root -> Left -> Right 
+<> Inorder		Left -> Root -> Right
+<> Postorder	Left -> Right -> Root

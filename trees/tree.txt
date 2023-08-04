@@ -28,15 +28,31 @@ Types of tree data structure: 👇
 
 There are many types of binary trees btw! 
 
-1) Binary Tree 
-   -Perfect Binary Tree 
-   -Full Binary tree / Complete Binary Tree
+1) Binary Search Tree 
+   -Perfect Binary Search Tree 
+   -Full Binary Search tree / Complete Binary Search Tree
 
 2) Ternary Tree
 
 and so on....
 
+Binary tree :
 
+* Binary Tree is defined as a tree data structure where each node has at most 2 children. Since each element in a binary tree can have only 2  children, we typically name them the left and right child.
+
+Basic Operations on Binary Tree:
+* Inserting an element.
+* Removing an element.
+* Searching for an element.
+* Traversing the tree.
+
+
+Binary Search Tree: 
+A binary search tree is a special kind of binary tree in which, for each node, the following properties must be satisfied:
+
+1) The value of all the nodes in the left subtree should be less than that of the parent node.
+2) The value of all the nodes in the right subtree should be greater than that of the parent node.
+3) The left and right subtrees must also be binary search trees.
 
 Perfect Binary tree/balanced tree: 
 representation of perfect binary tree 👇
@@ -52,7 +68,7 @@ representation of perfect binary tree 👇
 
 
 
-Full Binary tree:
+Full Binary Search tree:
 representation of full binary tree 
        a
      b   c   
